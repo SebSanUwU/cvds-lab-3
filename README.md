@@ -72,7 +72,8 @@ AppTest.java
 ```
 Mi proyecto:
 
-![img.png](img.png)
+![img.png](img%2Fimg.png)
+
 
 ## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 Edite el archivo `pom.xml` y realize la siguiente actualización:
@@ -88,7 +89,7 @@ dependencias:
 
 Mi Proyecto:
 
-![img_1.png](img_1.png)
+![img_1.png](img%2Fimg_1.png)
 
 ## COMPILAR Y EJECUTAR
 Para compilar ejecute el comando:
@@ -125,7 +126,7 @@ Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hel
 
 Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito!
 
-![img_2.png](img_2.png)
+![img_2.png](img%2Fimg_2.png)
 
 Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
 
@@ -135,7 +136,7 @@ Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo s
 
 Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
 
-![img_3.png](img_3.png)
+![img_3.png](img%2Fimg_3.png)
 
 Se planteó un try y catch para que responda a los argumentos que entre.
 
