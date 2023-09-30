@@ -153,7 +153,9 @@ Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y 
 Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
 
 -Solo me imprimio mi nombre ya que los argumentos estan entrando en un array y estamos tomando la primera posición
-
+```diff
++ ✅
+```
 Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
 
 Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
@@ -164,6 +166,9 @@ Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
 ```
 
 Se planteó un try y catch para que responda a los argumentos que entre.
+```diff
++ ✅
+```
 
 ## HACER EL ESQUELETO DE LA APLICACIÓN
 
