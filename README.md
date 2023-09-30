@@ -17,10 +17,25 @@ La herramienta [Apache Maven](https://maven.apache.org/what-is-maven.html) se us
 
 Ingresar a la página de la herramienta y entender:
 - Cuál es su mayor utilidad
+```diff
+- Falta respuesta
+```
 - Fases de maven
+```diff
+- Falta respuesta
+```
 - Ciclo de vida de la construcción
+```diff
+- Falta respuesta
+```
 - Para qué sirven los plugins
+```diff
+- Falta respuesta
+```
 - Qué es y para qué sirve el repositorio central de maven
+```diff
+- Falta respuesta
+```
 
 ## EJERCICIO DE LAS FIGURAS
 ### CREAR UN PROYECTO CON MAVEN
@@ -70,9 +85,13 @@ salida muestra la estructura del proyecto, similar a como se muestra a continuac
 └───archetype
 AppTest.java
 ```
-Mi proyecto:
 
+
+Mi proyecto:
 ![img.png](img%2Fimg.png)
+```diff
++ Ok
+```
 
 
 ## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
@@ -121,6 +140,9 @@ Realice el cambio en la clase `App.java` para crear un saludo personalizado, bas
 Utilizar la primera posición del parámetro que llega al método "main" para realizar elsaludo personalizado, en caso que no sea posible, se debe mantener el saludo como se encuentra actualmente:
 
 Buscar cómo enviar parámetros al plugin "exec".
+```diff
+- Falta respuesta
+```
 
 Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!
 
@@ -137,6 +159,9 @@ Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo s
 Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
 
 ![img_3.png](img%2Fimg_3.png)
+```diff
++ ✅
+```
 
 Se planteó un try y catch para que responda a los argumentos que entre.
 
@@ -145,6 +170,9 @@ Se planteó un try y catch para que responda a los argumentos que entre.
 ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
 
 Refactorización planteada según el patrón de diseño Simple Factory haciendo uso de switch-case de Java y usando las enumeraciones (Clase).
+```diff
++ ✅
+```
 
 Consideramos que el mejor metodo es Factory method ya que el diseño permite que cada vez que se agregue una nueva figura en el proyecto no se tenga que agregar al switch de shapesFactory el caso de la nueva figura, sino simplemente que esta sea una clase abstracta que retorne las instancias de las figuras al cliente. La creacion de las figuras ya no dependera de un switch.
 
@@ -169,11 +197,17 @@ Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con 
 ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
 
 Solo funciona Hexagon ya que es la unica que coincide con el nombre de la clase y sin parametros ya que se ejecuta pero el main necesita un argumento para operar.
+```diff
++ ✅
+```
 
 - NOTA: Investigue para qué sirve "gitignore" y cómo se usa. Para futuras entregas, debe estar configurado.
 
 ## Investigación
 
 Es un archivo que se agrega al repositorio para que Git ignore directorios, archivos, extensiones, etc. Con el fin de que estos no sean guardados en el repositorio. Puede ver un ejemplo del gitignore que se subio en en este repositorio.
+```diff
++ ✅
+```
 
 <!-- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
