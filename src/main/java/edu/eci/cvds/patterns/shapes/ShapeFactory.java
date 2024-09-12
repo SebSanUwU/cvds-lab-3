@@ -3,7 +3,7 @@ package edu.eci.cvds.patterns.shapes;
 import edu.eci.cvds.patterns.shapes.concrete.*;
 
 public class ShapeFactory {
-    public static Shape create(RegularShapeType shapeType){
+    public static Shape create(RegularShapeType shapeType){ // Ok: ✅
         Shape shape = null;
         switch (shapeType) {
             case Triangle:
